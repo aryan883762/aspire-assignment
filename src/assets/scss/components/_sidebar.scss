@@ -1,0 +1,20 @@
+@import '../variables';
+
+.left-sidebar {
+  background-color: #0C365A;
+  width: $sidebar-width;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-direction: column;
+  transition: width 0.5s;
+  &.reduce li a{
+    justify-content: center;
+  }
+  &.reduce .reduce-hide{
+    display: none;
+  }
+}
+.bottom-bar {
+  display: none;
+}

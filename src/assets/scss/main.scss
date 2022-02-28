@@ -1,0 +1,25 @@
+// Tailwind
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+    --primary-color: #325BAF;
+    --secondary-color: #EDF3FF;
+    --success-color: #01D167;
+    --danger-color: #FF0000;
+    --info-color: #23CEFD;
+}
+
+@import "./element-variables";
+
+
+@import "./elementFixes";
+
+@import "./customClasses";
+
+@import "./layout";
+
+@import "./components/sidebar";
+
+@import "./responsive";

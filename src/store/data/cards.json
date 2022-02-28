@@ -1,0 +1,31 @@
+{ 
+  "cardList": [
+    {
+      "card_id": 457845754234,
+      "name": "visa",
+      "holder": "Mark Henry",
+      "card_number": 457845754234,
+      "last4": 4234,
+      "exp": "12/20",
+      "isFreeze": 0
+    },
+    {
+      "card_id": 556845751720,
+      "name": "visa",
+      "holder": "David Warner",
+      "card_number": 556845751720,
+      "last4": 1720,
+      "exp": "05/22",
+      "isFreeze": 0
+    },
+    {
+      "card_id": 356845751855,
+      "name": "visa",
+      "holder": "Simon Sim",
+      "card_number": 356845751855,
+      "last4": 1588,
+      "exp": "10/21",
+      "isFreeze": 0
+    }
+  ]
+}

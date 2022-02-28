@@ -1,0 +1,36 @@
+@import './variables';
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('OpenSans-Light'), url('../fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('OpenSans-Regular'), url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('OpenSans-Semibold'), url('../fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+$font-family-sans-serif: 'OpenSans-Regular', sans-serif !default;
+$font-family-base: $font-family-sans-serif!default;
+
+$line-height-base: 1.625rem !default;
+
+$font-family: inherit !default;
+$font-weight: 600 !default;
+$line-height: 1.2 !default;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $content-color;
+}
