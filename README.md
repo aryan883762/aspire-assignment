@@ -10,9 +10,10 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### UI Framework and CSS
 ```
-npm run build
+ElementUI
+TailwindCSS
 ```
 
 ### Run your unit tests
